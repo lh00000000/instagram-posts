@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="msaExample" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="../../../addons/ofxMSACore/src/MSACoreMath.h">
+			<Option virtualFolder="addons/ofxMSACore/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSACore/src/MSACore-Cinder.h">
+			<Option virtualFolder="addons/ofxMSACore/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSACore/src/MSACoreGL.cpp">
+			<Option virtualFolder="addons/ofxMSACore/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSACore/src/MSACoreGL.h">
+			<Option virtualFolder="addons/ofxMSACore/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSACore/src/MSACore.h">
+			<Option virtualFolder="addons/ofxMSACore/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSACore/src/MSACoreCommon.h">
+			<Option virtualFolder="addons/ofxMSACore/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSACore/src/MSACore-OF.h">
+			<Option virtualFolder="addons/ofxMSACore/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAObjCPointer/src/MSAObjCPointer.cpp">
+			<Option virtualFolder="addons/ofxMSAObjCPointer/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAObjCPointer/src/MSAObjCPointer.h">
+			<Option virtualFolder="addons/ofxMSAObjCPointer/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsParams.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsParticle.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsParticleUpdater.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsCallbacks.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysics2D.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsAttraction.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysics3D.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysics.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsParticleDrawer.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsSpring.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsConstraint.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsSector.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsWorld.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSAPhysics/src/MSAPhysicsDataRecorder.h">
+			<Option virtualFolder="addons/ofxMSAPhysics/src" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

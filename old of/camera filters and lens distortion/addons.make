@@ -1,0 +1,2 @@
+ofxCameraFilter
+ofxBlur

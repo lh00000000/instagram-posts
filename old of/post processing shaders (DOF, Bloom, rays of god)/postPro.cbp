@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="postPro" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="../../../addons/ofxPostProcessing/src/FakeSSSPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/DofPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/LimbDarkeningPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/RGBShiftPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ZoomBlurPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/EdgePass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ToonPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/HorizontalTiltShifPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ConvolutionPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/KaleidoscopePass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/VerticalTiltShifPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/VerticalTiltShifPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/LUTPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/HorizontalTiltShifPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/PostProcessing.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/NoiseWarpPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/KaleidoscopePass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/GodRaysPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/DofAltPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ContrastPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/BleachBypassPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ofxPostProcessing.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/NoiseWarpPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/GodRaysPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/BloomPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/FakeSSSPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/RenderPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ConvolutionPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/RenderPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/RGBShiftPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ZoomBlurPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/DofPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ToonPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/SSAOPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/PixelatePass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/RimHighlightingPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/DofAltPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/BleachBypassPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/LUTPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/ContrastPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/LimbDarkeningPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/PixelatePass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/PostProcessing.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/FxaaPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/SSAOPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/FxaaPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/EdgePass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/RimHighlightingPass.cpp">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxPostProcessing/src/BloomPass.h">
+			<Option virtualFolder="addons/ofxPostProcessing/src" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
